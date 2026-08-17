@@ -1,0 +1,22 @@
+{
+  "name": "prince-portfolio-mern",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.42.2",
+    "gsap": "^3.15.0",
+    "imagesloaded": "^5.0.0",
+    "motion": "^12.42.2",
+    "react-use-measure": "^2.1.7",
+    "styled-components": "^6.4.3",
+    "tailwind-merge": "^3.6.0"
+  }
+}

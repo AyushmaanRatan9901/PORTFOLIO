@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import NotchNavbar from "../components/Navbar";
 import Image from "../components/Image";
 import IconCloud from "../components/UI/icon_cloud";
+import ResearchBentoGrid from "../components/UI/research-bento-grid";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       {/* <Hero /> */}
       {/* <IconCloud images={images} /> */}
       <About />
+
       <Skills />
       <Projects />
       <Experience />
